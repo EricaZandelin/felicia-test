@@ -1,0 +1,90 @@
+
+.nav-link {
+  color:white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color:#39a0a0;
+}
+
+.dropdown-menu {
+  background-color: 	#39a0a0;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.dropdown-item {
+  color:white;
+}
+
+  /* Change color of dropdown links on hover */
+  .dropdown-menu a:hover {background-color:	#030505;
+  color:white;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-menu {display: block;}
+  
+
+  .body__front{
+    background-image: url(../images/redbull__back.gif);
+    width: 1800px;
+    height: auto; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+    
+    /* Behöver overflow hidden någonstans?*/
+}
+
+/* index - first page */
+
+/*
+.all__landing {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: flex-end;
+  align-items: center;
+} */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  max-width: 500px;
+  width: 100%;
+  margin-right: 50px;
+  padding: 20px;
+}
+  
+ 
+.mybtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  background: none;
+  border-color: white;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn > a {
+  list-style: none;
+  text-decoration: none;
+  color:white;
+  font-size: larger;
+}
+  
+#myBtn:hover{
+  background-color: black;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}

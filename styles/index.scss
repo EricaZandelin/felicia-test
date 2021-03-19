@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 1800px;
+    width: 100%;
+}
+
+/*Font fams:
+font-family: 'Cormorant Unicase', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+@import'main';
+@import'wacom';
+@import'redbull';
+@import'ghost';
+@import'storytel';
+@import'weeds';
+@import'loxell';
+@import'ref';
+@import'about';
+@import'contact';
+@import'footer';
+@import'retouch';
