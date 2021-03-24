@@ -7,7 +7,8 @@
 }
 
 body {
-  max-width: 100%;
+  max-width: 1800;
+  width: 100%;
 }
 
 /*Font fams:
@@ -157,11 +158,6 @@ body {
   justify-content: center;
 }
 
-.wacom__video {
-  max-width: 100%;
-  height: auto;
-}
-
 .wacom__image {
   max-width: 1400px;
   width: 100%;
@@ -271,10 +267,9 @@ h1 {
 .ghostpage__all {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   justify-content: space-evenly;
-  height: 3000px;
-  align-content: center;
+  height: 3300px;
+  margin-top: 40px;
 }
 
 h2 {
@@ -284,7 +279,7 @@ h2 {
 .ghost__text {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .glitch {
@@ -325,9 +320,13 @@ h2 {
   animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both 5;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 957px) {
   .glitch {
-    font-size: 48px;
+    font-size: 45px;
+  }
+
+  .ghost__text {
+    align-self: center;
   }
 }
 @keyframes glitch {
@@ -352,10 +351,17 @@ h2 {
 }
 .ghost__video {
   display: flex;
-  flex-wrap: wrap;
   position: relative;
   justify-content: center;
   margin-top: 40px;
+  width: 100%;
+  height: auto;
+}
+
+.ghost__img {
+  max-width: 1400px;
+  width: 100%;
+  height: auto;
 }
 
 .glitch:hover {
@@ -384,6 +390,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   color: #fff;
+  font-size: 20px;
 }
 
 .weeds__imagebox1 {
@@ -393,8 +400,22 @@ h2 {
   margin: 40px 0px 40px 0px;
 }
 
+.weeds__imagebox2 {
+  display: flex;
+  justify-content: center;
+}
+
 .weeds__videobox {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   margin: 20px 0px 20px 0px;
+}
+
+.weed__img {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
 }
 
 .all__loxell {

@@ -2,10 +2,9 @@
 .ghostpage__all {
 	display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-evenly;
-    height: 3000px;
-    align-content: center;
+    height: 3300px;
+	margin-top:40px;
 }
 
 h2 {
@@ -15,7 +14,7 @@ h2 {
 .ghost__text {
 	display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 
@@ -59,11 +58,16 @@ h2 {
 	}
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 957px) {
 	.glitch {
-		font-size: 48px;
+		font-size: 45px;
+	}
+
+	.ghost__text {
+		align-self: center;
 	}
 }
+
 
 
 @keyframes glitch {
@@ -90,10 +94,17 @@ h2 {
 
 .ghost__video {
     display: flex;
-    flex-wrap: wrap;
     position: relative;
     justify-content: center;
 	margin-top:40px;
+	width: 100%;
+	height: auto;
+}
+
+.ghost__img {
+	max-width: 1400px;
+	width: 100%;
+	height: auto;
 }
 
 
