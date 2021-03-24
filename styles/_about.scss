@@ -1,14 +1,14 @@
 .all__about-page {
-  height: 1500px;
+  height: 2200px;
 }
 
 .bg-image {
   /* The image used */
-  background: url("../images/haha.jpg") no-repeat center;
+  background: url("../images/hahah.jpg") no-repeat center;
 
-  /* Add the blur effect */
+  /* Add the blur effect 
   filter: blur(6px);
-  -webkit-filter: blur(6px);
+  -webkit-filter: blur(6px);*/
 
   /* Full height */
   max-height: 700px;
@@ -25,7 +25,7 @@
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 3px solid #39a0a0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -34,4 +34,56 @@
   width: 80%;
   padding: 20px;
   text-align: center;
+}
+
+.images__about-container {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.laugh {
+  color:#39a0a0;
+}
+
+.felicia__box {
+  display: flex;
+  justify-content: space-around;
+  height: 900px;
+  margin-top: 20px;
+  width: 1500px;
+}
+
+.felicia__text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  color:#fff;
+  justify-content: center;
+    height: 620px;
+}
+
+.rendering__box {
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 1800px;
+  margin-right: 40px;
+}
+
+
+
+.rendering__text {
+  margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-content: flex-end; */
+    align-items: center;
+}
+
+.list {
+  color: #fff;
+  font-size: 25px;
 }

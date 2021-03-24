@@ -1,0 +1,23 @@
+.all__weeds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.weeds__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#fff;
+}
+
+.weeds__imagebox1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px 40px 0px;
+}
+
+.weeds__videobox {
+    margin:20px 0px 20px 0px;
+}

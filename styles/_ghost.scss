@@ -1,16 +1,30 @@
 
 .ghostpage__all {
-    display: flex;
+	display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 1500px;
+    height: 3000px;
+    align-content: center;
 }
+
+h2 {
+	color:#fff;
+}
+
+.ghost__text {
+	display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
 .glitch {
 	font: {
 		size: 8.125em;
 		family: 'Raleway', sans-serif;
 		weight: 700;
+		text-decoration: none;
 	}
 	text-decoration: none; /*vet ej varför detta inte funkar?*/
 	text-transform: uppercase;
@@ -79,4 +93,9 @@
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
+}
+
+
+.glitch:hover {
+	color:#fff;
 }

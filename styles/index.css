@@ -3,11 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Bebas Neue", cursive;
 }
 
 body {
-  max-width: 1800px;
-  width: 100%;
+  max-width: 100%;
 }
 
 /*Font fams:
@@ -18,8 +18,9 @@ font-family: 'Roboto', sans-serif;
 .nav-link {
   color: white;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
   font-weight: 600;
+  font-size: larger;
+  letter-spacing: 2px;
 }
 
 .nav-link:hover {
@@ -47,65 +48,71 @@ font-family: 'Roboto', sans-serif;
   display: block;
 }
 
-.body__front {
-  background-image: url(../images/redbull__back.gif);
-  width: 1800px;
-  height: auto;
-  /* You must set a specified height */
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */
-  background-attachment: fixed;
-  /* Behöver overflow hidden någonstans?*/
+/*
+  .body__front{
+    background-image: url(../images/redbull__back.gif);
+    width: 1800px;
+    height: auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+
+
+}*/
+/* index - first page */
+.all__landing {
+  display: flex;
+  justify-content: flex-end;
 }
 
-/* index - first page */
+.front__video {
+  position: fixed;
+  background-size: cover;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 /*
 .all__landing {
   display: flex;
-  flex-wrap: wrap;
-  position: relative;
   justify-content: flex-end;
-  align-items: center;
-} */
+  height: 500px;
+  align-items: flex-end;
+  margin-right: 120px; 
+}
+*/
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
-  position: fixed;
+  position: absolute;
+  bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  max-width: 500px;
-  width: 100%;
-  margin-right: 50px;
+  width: 40%;
   padding: 20px;
+  margin-right: 50px;
 }
 
 .mybtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
+  width: 110px;
+  height: 40px;
   background: none;
+  border-style: solid;
   border-color: white;
-  color: #fff;
-  cursor: pointer;
 }
 
-#myBtn > a {
-  list-style: none;
+.front__btn:hover {
+  color: red;
+  font-size: large;
+}
+
+.front__btn {
   text-decoration: none;
   color: white;
-  font-size: larger;
-}
-
-#myBtn:hover {
-  background-color: black;
-  font-size: 24px;
-  transition: all 0.3s ease;
 }
 
 body {
@@ -117,7 +124,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   overflow: hidden;
-  height: 2100px;
+  height: 2200px;
   margin-top: 50px;
   text-align: center;
 }
@@ -131,35 +138,34 @@ body {
   width: 100%;
   height: 200px;
   color: white;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
+  font-size: 22px;
   margin-top: 40px;
   letter-spacing: 2px;
 }
 
-.pic-text__container {
+.vid-text__container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.wacom__pic {
-  width: 100%;
-  max-width: 1100px;
-  height: 671px;
-}
-
-.wacom__video {
+.video__box {
   display: flex;
   flex-wrap: wrap;
   position: relative;
   justify-content: center;
 }
 
-.video__box {
+.wacom__video {
+  max-width: 100%;
+  height: auto;
+}
+
+.wacom__image {
+  max-width: 1400px;
   width: 100%;
-  max-width: 1300px;
-  height: 871px;
+  height: 1000px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
@@ -168,18 +174,92 @@ body {
   }
 }
 /* TEST FRÅN NÄTET MED PLAYBUTTON*/
+* {
+  font-family: "Bebas Neue", cursive;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.all__redbull {
+  margin: 20px 0px 20px 0px;
+}
+
+.only__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 820px;
+  width: 100%;
+}
+
+.text__red {
+  color: #fff;
+  font-size: 25px;
+}
+
+.red__gif {
+  max-width: 820px;
+  width: 100%;
+  height: auto;
+}
+
+.redbull1, .redbull2 {
+  max-width: 820px;
+  width: 100%;
+  height: 500px;
+}
+
+.redbull3 {
+  max-width: 1500px;
+  width: 100%;
+  height: auto;
+}
+
+.text-gif__container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.img__redbox1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.img__redbox2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .ghostpage__all {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 1500px;
+  height: 3000px;
+  align-content: center;
+}
+
+h2 {
+  color: #fff;
+}
+
+.ghost__text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
 .glitch {
   font-size: 8.125em;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+  font-text-decoration: none;
   text-decoration: none;
   /*vet ej varför detta inte funkar?*/
   text-transform: uppercase;
@@ -245,16 +325,80 @@ body {
   justify-content: center;
 }
 
+.glitch:hover {
+  color: #fff;
+}
+
+.all__storytel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0px 40px 0px;
+}
+
+.img__storytel-box {
+  margin-bottom: 40px;
+}
+
+.all__weeds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.weeds__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.weeds__imagebox1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0px 40px 0px;
+}
+
+.weeds__videobox {
+  margin: 20px 0px 20px 0px;
+}
+
+.all__loxell {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.video__lox-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0px 40px 0px;
+}
+
+.all__ref {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px 0px 40px 0px;
+}
+
+.video__ref-container {
+  margin-bottom: 20px;
+}
+
 .all__about-page {
-  height: 1500px;
+  height: 2200px;
 }
 
 .bg-image {
   /* The image used */
-  background: url("../images/haha.jpg") no-repeat center;
-  /* Add the blur effect */
+  background: url("../images/hahah.jpg") no-repeat center;
+  /* Add the blur effect 
   filter: blur(6px);
-  -webkit-filter: blur(6px);
+  -webkit-filter: blur(6px);*/
   /* Full height */
   max-height: 700px;
   height: 100%;
@@ -270,7 +414,7 @@ body {
   /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 3px solid #39a0a0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -281,6 +425,188 @@ body {
   text-align: center;
 }
 
+.images__about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.laugh {
+  color: #39a0a0;
+}
+
+.felicia__box {
+  display: flex;
+  justify-content: space-around;
+  height: 900px;
+  margin-top: 20px;
+  width: 1500px;
+}
+
+.felicia__text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  color: #fff;
+  justify-content: center;
+  height: 620px;
+}
+
+.rendering__box {
+  display: flex;
+  align-self: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 1800px;
+  margin-right: 40px;
+}
+
+.rendering__text {
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  /* align-content: flex-end; */
+  align-items: center;
+}
+
+.list {
+  color: #fff;
+  font-size: 25px;
+}
+
+.contact__h1 {
+  font-family: "Poppins", sans-serif, "arial";
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+}
+
+.container__contact {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* ///// inputs /////*/
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.75em;
+  color: white;
+  top: -5px;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+/*flytta knapp till mitten?*/
+.submit-btn {
+  padding: 7px 35px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: #39a0a0;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+  background-color: #317474;
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 768px) {
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+
+.contact__btn {
+  text-decoration: none;
+  color: white;
+}
+
+.contact__btn:hover {
+  color: #cac6c6;
+}
+
+/*Thank you Jon Lehman on Freefronted*/
 .footer {
   position: relative;
   margin: 0;
@@ -291,7 +617,6 @@ body {
   justify-content: space-around;
   align-items: center;
   color: white;
-  max-width: 1800px;
   width: 100%;
   max-height: 100px;
 }
@@ -325,11 +650,11 @@ body {
   margin: 5px 2px;
 }
 
-.fa-facebook, .fa-twitter, .fa-linkedin, .fa-pinterest, .fa-youtube {
+.fa-facebook, .fa-instagram, .fa-linkedin, .fa-pinterest, .fa-youtube {
   color: white;
 }
 
-.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-pinterest:hover, .fa-youtube:hover {
+.fa-facebook:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-pinterest:hover, .fa-youtube:hover {
   color: #39a0a0;
   transition: all 0.3s ease 0s;
 }
@@ -351,8 +676,7 @@ body {
   width: 100%;
   padding: 4% 2%;
   box-sizing: border-box;
-  height: 100vh;
-  /* ca 880px*/
+  height: 1300px;
 }
 
 .box {
@@ -406,6 +730,21 @@ body {
 .fa-camera-retro {
   margin-left: 8px;
   color: #39a0a0;
+}
+
+/*Granit pics*/
+.granit__container2 {
+  display: flex;
+}
+
+.granit__box {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 40px 0px;
+}
+
+.granit__box2 {
+  margin: 0px 5px 0px 5px;
 }
 
 /* Monsun pic*/

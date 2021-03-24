@@ -7,7 +7,6 @@
     justify-content: space-around;
     align-items: center;
     color:white;
-    max-width: 1800px;
     width: 100%;
     max-height: 100px;
   }
@@ -42,12 +41,12 @@
     margin: 5px 2px;
   }
 
-  .fa-facebook, .fa-twitter, .fa-linkedin, .fa-pinterest, .fa-youtube {
+  .fa-facebook, .fa-instagram, .fa-linkedin, .fa-pinterest, .fa-youtube {
     color: white;
   }
 
 
-  .fa-facebook:hover, .fa-twitter:hover, .fa-linkedin:hover, .fa-pinterest:hover, .fa-youtube:hover {
+  .fa-facebook:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-pinterest:hover, .fa-youtube:hover {
     color:	#39a0a0;
     transition: all 0.3s ease 0s;
   }
