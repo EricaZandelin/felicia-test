@@ -7,7 +7,6 @@
 }
 
 body {
-  max-width: 1800;
   width: 100%;
 }
 
@@ -20,7 +19,7 @@ font-family: 'Roboto', sans-serif;
   color: white;
   text-decoration: none;
   font-weight: 600;
-  font-size: larger;
+  font-size: 25px;
   letter-spacing: 2px;
 }
 
@@ -36,6 +35,7 @@ font-family: 'Roboto', sans-serif;
 
 .dropdown-item {
   color: white;
+  font-size: 18px;
 }
 
 /* Change color of dropdown links on hover */
@@ -444,7 +444,7 @@ h2 {
 }
 
 .all__about-page {
-  height: 2200px;
+  height: 2100px;
 }
 
 .bg-image {
@@ -492,7 +492,7 @@ h2 {
 .felicia__box {
   display: flex;
   justify-content: space-around;
-  height: 900px;
+  height: 800px;
   margin-top: 20px;
   width: 1500px;
 }
