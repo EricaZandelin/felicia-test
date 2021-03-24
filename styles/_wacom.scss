@@ -8,7 +8,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     overflow: hidden;
-    height: 2200px;
+    height: 2000px;
     margin-top:50px;
     text-align: center;
 }
@@ -24,8 +24,8 @@ body {
     color:white;
     font-weight: 600;
     font-size: 22px;
-    margin-top:40px;
     letter-spacing: 2px;
+    margin-bottom: 40px;
     
 }
 
@@ -58,13 +58,46 @@ body {
 }
 
 
+/* IPAD*/
+@media screen and (min-width: 415px) and (max-width: 980px) {
+    .all__wacom-page {
+        height: 1300px;
+    }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
     .video__box {
-        width: 90%; 
+        width: 70%;
+        align-self: center; 
+    }
+
+    .wacom__image {
+        max-width: 700px;
+        height: 500px;
     }
 }
 
+
+/*MOBIL*/
+
+@media screen and (min-width: 0px) and (max-width: 414px) {
+
+    .wacom__text{
+        font-size: 10px;
+        width: 200px;
+    }
+    .all__wacom-page {
+        height: 1000px;
+    }
+
+    .video__box {
+        width: 25%;
+        align-self:center;
+    }
+
+    .wacom__image {
+        max-width: 300px;
+        height: 200px;
+    }
+}
 
 
 
