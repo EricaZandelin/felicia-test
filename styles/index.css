@@ -733,7 +733,7 @@ input[type=checkbox]:checked + label {
 }
 
 .fa-facebook, .fa-instagram, .fa-linkedin, .fa-youtube, .fa-artstation {
-  color: white;
+  color: #000;
 }
 
 .fa-facebook:hover, .fa-instagram:hover, .fa-linkedin:hover, .fa-artstation:hover, .fa-youtube:hover {
