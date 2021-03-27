@@ -1,14 +1,16 @@
 .all__weeds {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 2600px;
 }
 
 .weeds__text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color:#fff;
+    color:#000;
     font-size: 20px;
 }
 
@@ -27,7 +29,6 @@
 .weeds__videobox {
     display: flex;
     flex-direction: column;
-    align-self: center;
     margin:20px 0px 20px 0px;
 }
 

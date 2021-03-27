@@ -7,16 +7,11 @@
 	margin-top:40px;
 }
 
-h2 {
-	color:#fff;
-}
-
 .ghost__text {
 	display: flex;
     justify-content: center;
     margin-bottom: 20px;
 }
-
 
 .glitch {
 	font: {
@@ -28,7 +23,7 @@ h2 {
 	text-decoration: none; /*vet ej varför detta inte funkar?*/
 	text-transform: uppercase;
 	position: absolute;
-	color: #fff;
+	color: #000;
 	letter-spacing: 5px;
 	
 	&:before, &:after {
@@ -109,5 +104,5 @@ h2 {
 
 
 .glitch:hover {
-	color:#fff;
+	color:#000;
 }
