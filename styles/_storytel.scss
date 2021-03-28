@@ -11,6 +11,12 @@
     margin-bottom: 40px;
 }
 
+.storytel__pic {
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+}
+
 .story__head-text {
     width: 600px;
     font-size: 22px;
@@ -20,4 +26,53 @@
 
 .storytel__text {
     margin-top: 40px;
+}
+
+
+@media screen and (min-width: 698px) and (max-width: 1000px)  {
+    .all__storytel {
+        height: 2000px;
+    }
+
+    .storytel__video iframe{
+       max-width: 700px;
+       height: 400px;
+    }
+}
+
+@media screen and (min-width: 484px) and (max-width: 697px)  {
+
+    .all__storytel {
+        height: 1500px;
+    }
+
+    .storytel__video iframe{
+       max-width: 500px;
+       height: 300px;
+    }
+
+
+    .story__head-text {
+        width: 300px;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 483px)  {
+
+    .all__storytel {
+        height: 1000px;
+    }
+
+    .storytel__video iframe{
+        max-width: 300px;
+        height: 200px;
+     }
+
+     .story__head-text {
+        width: 280px;
+        font-size: 13px;
+    }
+
 }

@@ -10,7 +10,50 @@
 }
 
 .ref__pic {
+    max-width: 1300px;
     width: 100%;
     height: auto;
  
-}    
+}
+
+@media screen and (min-width: 801px) and (max-width: 1300px)  {
+    .video__ref-container iframe {
+        width: 800px;
+        height: 600px;
+    }
+
+    .ref__pic {
+        width: 800px;
+        height: 600px;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px)  {
+    .video__ref-container iframe {
+        width: 500px;
+        height: 300px;
+    }
+
+    .ref__pic {
+        width: 500px;
+        height: 300px;
+    }
+
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 500px)  {
+    .video__ref-container iframe {
+        width: 300px;
+        height: 200px;
+    }
+
+    .ref__pic {
+        width: 300px;
+        height: 200px;
+    }
+
+    .ref__h2 {
+        width: 50%;
+    }
+}

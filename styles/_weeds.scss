@@ -39,8 +39,30 @@
 }
 
 
+@media screen and (min-width: 550px) and (max-width: 850px)  {
 
+    .all__weeds {
+        height: 1900px;
+    }
+    .weeds__videobox iframe{
+        width: 550px;
+        height: 350px;
+    } 
+}
     
+@media screen and (min-width: 0px) and (max-width: 549px)  {
 
+    .all__weeds {
+        height: 1200px;
+    }
+
+    .weeds__videobox iframe {
+        width: 300px;
+        height: 200px;
+        align-self: center;
+    }
+
+   
+}
 
 

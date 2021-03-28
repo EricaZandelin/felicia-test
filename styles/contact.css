@@ -144,4 +144,9 @@ input[type=checkbox]:checked + label {
 }
 
 /*Thank you Jon Lehman on Freefronted*/
+@media only screen and (max-width: 408px) {
+  .all__contact-page {
+    height: 900px;
+  }
+}
 /*# sourceMappingURL=contact.css.map */

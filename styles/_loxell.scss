@@ -12,3 +12,40 @@
     align-items: center;
     margin: 40px 0px 40px 0px;
 }
+
+.lox__video {
+    max-width:1300px;
+    width: 100%; 
+    height:700px;
+}
+
+@media screen and (min-width: 501px) and (max-width: 858px)  {
+.all__loxell {
+    height: 1400px;
+}
+
+.video__lox-container {
+    height: 550px;
+}
+
+
+.video__lox-container iframe {
+    width: 500px;
+    height: 300px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px)  {
+    .all__loxell {
+        height: 900px;
+    }
+
+    .video__lox-container {
+        height: 350px;
+    }
+
+    .video__lox-container iframe {
+        width: 300px;
+        height: 200px;
+    }
+}

@@ -2,8 +2,8 @@
 .ghostpage__all {
 	display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    height: 3300px;
+    justify-content: center;
+    height: 3450px;
 	margin-top:40px;
 }
 
@@ -53,17 +53,6 @@
 	}
 }
 
-@media only screen and (max-width: 957px) {
-	.glitch {
-		font-size: 45px;
-	}
-
-	.ghost__text {
-		align-self: center;
-	}
-}
-
-
 
 @keyframes glitch {
 	0% {
@@ -89,10 +78,10 @@
 
 .ghost__video {
     display: flex;
-    position: relative;
     justify-content: center;
 	margin-top:40px;
 	width: 100%;
+	overflow:hidden;
 	height: auto;
 }
 
@@ -105,4 +94,42 @@
 
 .glitch:hover {
 	color:#000;
+}
+
+
+
+
+@media only screen and (max-width: 957px) {
+
+	.ghostpage__all {
+		height: 2400px;
+	}
+
+	.ghost__video iframe{
+		width: 90%;
+	}
+
+	.glitch {
+		font-size: 10px;
+	}
+
+	.ghost__text {
+		visibility: hidden;
+	}
+
+	.ghost__h2 {
+		font-size: 40px;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+	.ghostpage__all {
+		height: 2000px;
+	}
+
+	.ghost__video iframe {
+		height: 50%
+	}
+
 }

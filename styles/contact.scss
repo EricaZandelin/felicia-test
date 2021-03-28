@@ -35,7 +35,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 @media only screen and (max-width: 768px){
     .styled-input {
-        width:100%;
+    width:100%;
     }
 }
 
@@ -111,9 +111,9 @@ textarea {
 
 @media (max-width: 768px) {
     .submit-btn {
-        width:100%;
-        float: none;
-        text-align:center;
+    width:100%;
+    float: none;
+    text-align:center;
     }
 }
 
@@ -136,3 +136,10 @@ input[type=checkbox]:checked + label {
     color:rgb(202, 198, 198);
 }
 /*Thank you Jon Lehman on Freefronted*/
+
+
+@media only screen and (max-width: 408px) {
+	.all__contact-page {
+		height: 900px;
+	}
+}

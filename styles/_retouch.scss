@@ -1,4 +1,4 @@
-/* All content for retouch here - (om ej för mycket, gör likadant i 3D och samla?)*/
+/* All content for retouch here */
 
 
 .all__maria-page, .all__granit-page, .all__mon-page, .all__sven-page  {
@@ -7,37 +7,37 @@
     align-items: center;
 }
 
-/* Kolla upp vad alla vh/em vad allt nu är.. i px och kör på det. Samt alla sidor måste ha #HEX färg alt. bara färgnamn*/
-.container1, .container2, .container3 {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
 
-  .container1 {
+.container1, .container2, .container3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.container1 {
     margin-top: 30px;
-    }
+}
 
 
 .text__photographer {
-    display: flex;
-    justify-content: center;
-    max-width: 340px;
-    width: 100%;
-    height: 26px;
-    background-color:#000;
-    color:#39a0a0;
-    opacity: 0.8;
-    letter-spacing: 1px;
-    margin-bottom:50px;
-    margin-top:20px;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  max-width: 340px;
+  width: 100%;
+  height: 26px;
+  background-color:#000;
+  color:#39a0a0;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  margin-bottom:50px;
+  margin-top:20px;
+  border-radius: 5px;
 }
 
 
 .fa-camera-retro {
-    margin-left:8px;
-    color:	#39a0a0;
+  margin-left:8px;
+  color:	#39a0a0;
 }
 
 /*Granit pics*/ 
@@ -59,45 +59,41 @@
 /* Monsun pic*/
 
 .mon__pic, .sven__pic {
-    width: 100%;
-    height: auto;
-    margin-top:40px;
+  width: 100%;
+  height: auto;
+  margin-top:40px;
 }
 
 .text__owner {
-    display: flex;
-    justify-content: center;
-    max-width: 320px;
-    width: 100%;
-    height: 26px;
-    color:#000;
-    letter-spacing: 1px;
-    margin-bottom:50px;
-    margin-top:20px;
-    border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  max-width: 320px;
+  width: 100%;
+  height: 26px;
+  color:#000;
+  letter-spacing: 1px;
+  margin-bottom:50px;
+  margin-top:20px;
+  border-radius: 5px;
 }
 
 /* Amanda page and Lefvander */
 
 .all__amanda-page, .all__lefvander-page {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
 }
 
 .amanda__pic-container {
-    /*display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;*/
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .amanda__pic, .lefvander__pic, .lefvander__pic1, .maria__pic, .maria__pic1 {
-    max-width: 800px;
-    width: 100%;
-    height: auto;
+  max-width: 700px;
+  width: 100%;
+  height: auto;
 }
 
 .lefvander__pic1, .maria__pic {
@@ -115,6 +111,18 @@
   border-radius: 5px;
 }
 
+.granit__pic {
+  max-width: 1300px;
+  width: 100%;
+  height: auto;
+}
+
+.granit__pic1 {
+  max-width:450px; 
+  height:700px;
+  width: 100%;
+}
+
 
 
 /* IPAD*/
@@ -122,11 +130,58 @@
 
 
   .lefvander__pic, .lefvander__pic1, .maria__pic, .maria__pic1 {
-      width: 40% ;
-      align-content: center; 
+    width: 40% ;
+    align-content: center; 
   }
+}
 
-
+@media screen and (min-width: 870px) and (max-width: 1390px) {
+ .amanda__pic-container {
+  display: flex;
+  flex-direction: column;   
+ }
 }
 
 
+@media screen and (min-width: 897px) and (max-width: 1200px) {
+
+  .granit__pic {
+    width: 800px;
+  }
+
+.granit__pic1 {
+  width: 300px;
+  height: 500px;
+  }
+}
+
+@media screen and (min-width: 584px) and (max-width: 896px) {
+
+  .granit__pic {
+    width: 500px;
+  }
+
+.granit__pic1 {
+  width: 160px;
+  height: 300px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 583px) {
+  .granit__pic {
+    width: 300px;
+  }
+
+  .granit__pic1 {
+    width: 100px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  .text__photographer {
+    width: 280px;
+    font-size: 10px;
+    align-items: center; 
+  }
+}

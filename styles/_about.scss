@@ -1,29 +1,9 @@
 .all__about-page {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   height: 2300px;
   margin: 40px 0px 40px 0px;
 }
-
-.bg-image {
-  /* The image used */
-  background: url("../images/hahah.jpg") no-repeat center;
-
-  /* Add the blur effect 
-  filter: blur(6px);
-  -webkit-filter: blur(6px);*/
-
-  /* Full height */
-  min-height: 700px;
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-size: cover;
-  
-}
-
-/* Position text in the middle of the page/image */
 
 .felicia__head-container {
   display: flex;
@@ -31,11 +11,14 @@
 }
 
 .about__head-text {
-  width: 500px;
+  display: flex;
+  justify-content: center;
+  width: 700px;
 }
 
 .about__head {
   font-size: 50px;
+  letter-spacing: 3px;
 }
 
 .laugh {
@@ -74,7 +57,7 @@
 }
 
 .about__fel-text {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 18px;
 }
 
@@ -82,7 +65,7 @@
   display: flex;
   align-self: center;
   align-items: center;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 .rendering__pic {
@@ -102,4 +85,96 @@
 .list {
   color: #000;
   font-size: 25px;
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 1250px)  {
+
+  .all__about-page{
+    height: 2000px;
+  }
+
+  .rendering__pic {
+    width: 500px;
+    height: 600px;
+  }
+
+  .render__head {
+    font-size: 45px;
+    margin-left: -20%;
+  }
+
+  .list {
+    font-size:20px;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 851px)  {
+
+  .all__about-page {
+    height: 1550px;
+  }
+
+  .about__head{
+    font-size: 40px;
+  }
+
+
+  .felicia__pic{
+    width: 300px;
+    height: 500px;
+  }
+
+  .rendering__pic {
+    width: 450px;
+    height: 550px;
+  }
+
+  .render__head {
+    font-size: 38px;
+    margin-left: -25%;
+  }
+
+  .list {
+    font-size:13px;
+  }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 579px)  {
+
+  .all__about-page {
+    height: 1200px;
+  }
+
+  .about__head{
+    font-size: 20px;
+  }
+
+  .felicia__box {
+    height: 600px;
+  }
+
+  .about__fel-text{
+    font-size: 10px;
+  }
+
+  .felicia__pic {
+    width: 200px;
+    height: 400px;
+  }
+
+  .rendering__pic {
+    width: 200px;
+    height: 300px;
+  }
+
+  .render__head {
+    font-size: 30px;
+    margin-left: -45%;
+  }
+
+  .list {
+    font-size:10px;
+  }
 }

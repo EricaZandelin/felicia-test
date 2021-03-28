@@ -1,6 +1,5 @@
 
-
-
+/*navbar*/
 
 .nav-link {
   color:white;
@@ -32,18 +31,6 @@
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-menu {display: block;}
   
-/*
-  .body__front{
-    background-image: url(../images/redbull__back.gif);
-    width: 1800px;
-    height: auto; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-attachment: fixed;
-    
-   
-}*/
 
 /* index - first page */
 
@@ -52,18 +39,10 @@
   justify-content: flex-end;
 }
 
-.front__video {
-  position: fixed;
-  background-size: cover;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+#myVideo {
 
-  
-
-  
 }
+
 
 /*
 .all__landing {
@@ -106,3 +85,4 @@
   text-decoration: none;
   color: white;
 }
+
