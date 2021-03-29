@@ -1,6 +1,15 @@
 
 /*navbar*/
 
+h1, h2 {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.d-flex {
+  align-content: center;
+  flex-direction: column;
+}
+
 .nav-link {
   color:white;
   text-decoration: none;
@@ -44,6 +53,7 @@
   overflow-x: hidden;
   background-attachment: fixed;
 }
+
 .content {
   display: flex;
   align-items: center;
@@ -75,6 +85,7 @@
 .front__btn {
   text-decoration: none;
   color: white;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 

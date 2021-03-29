@@ -16,7 +16,7 @@
 .glitch {
 	font: {
 		size: 8.125em;
-		family: 'Raleway', sans-serif;
+		font-family: 'Fjalla One', sans-serif;
 		weight: 700;
 		text-decoration: none;
 	}
@@ -125,11 +125,17 @@
 
 @media only screen and (max-width: 450px) {
 	.ghostpage__all {
-		height: 2000px;
+		height: 1100px;
 	}
 
 	.ghost__video iframe {
-		height: 50%
+		width: 280px;
+		height: 300px;
+	}
+
+	.ghost__image1, .ghost__image2 {
+		height: 300px;
+		width: 280px;
 	}
 
 }

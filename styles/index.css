@@ -17,6 +17,15 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 /*navbar*/
+h1, h2 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.d-flex {
+  align-content: center;
+  flex-direction: column;
+}
+
 .nav-link {
   color: white;
   text-decoration: none;
@@ -94,6 +103,7 @@ font-family: 'Roboto', sans-serif;
 .front__btn {
   text-decoration: none;
   color: white;
+  font-family: "Fjalla One", sans-serif;
 }
 
 @media screen and (min-width: 325px) and (max-width: 450px) {
@@ -333,7 +343,7 @@ h1 {
 
 .glitch {
   font-size: 8.125em;
-  font-family: "Raleway", sans-serif;
+  font-font-family: "Fjalla One", sans-serif;
   font-weight: 700;
   font-text-decoration: none;
   text-decoration: none;
@@ -431,11 +441,17 @@ h1 {
 }
 @media only screen and (max-width: 450px) {
   .ghostpage__all {
-    height: 2000px;
+    height: 1100px;
   }
 
   .ghost__video iframe {
-    height: 50%;
+    width: 280px;
+    height: 300px;
+  }
+
+  .ghost__image1, .ghost__image2 {
+    height: 300px;
+    width: 280px;
   }
 }
 .all__storytel {
@@ -692,10 +708,12 @@ h1 {
 .about__head {
   font-size: 50px;
   letter-spacing: 3px;
+  font-family: "Fjalla One", sans-serif;
 }
 
 .laugh {
   color: #39a0a0;
+  font-family: "Fjalla One", sans-serif;
 }
 
 .render__head {
@@ -730,8 +748,8 @@ h1 {
 }
 
 .about__fel-text {
-  font-family: "Fjalla One", sans-serif;
   font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .rendering__box {
@@ -791,6 +809,10 @@ h1 {
     height: 500px;
   }
 
+  .felicia__text-box {
+    width: 400px;
+  }
+
   .rendering__pic {
     width: 450px;
     height: 550px;
@@ -802,29 +824,41 @@ h1 {
   }
 
   .list {
-    font-size: 13px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 300px) and (max-width: 579px) {
   .all__about-page {
-    height: 1200px;
+    height: 1500px;
   }
 
   .about__head {
     font-size: 20px;
   }
 
+  .about__head-text {
+    width: 300px;
+    font-size: 15px;
+  }
+
   .felicia__box {
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+  }
+
+  .felicia__text-box {
+    width: 300px;
   }
 
   .about__fel-text {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .felicia__pic {
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
   }
 
   .rendering__pic {
@@ -833,12 +867,20 @@ h1 {
   }
 
   .render__head {
-    font-size: 30px;
-    margin-left: -45%;
+    font-size: 20px;
+  }
+
+  .rendering__box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rendering__text {
+    align-items: center;
   }
 
   .list {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 .contact__h1 {
@@ -1190,7 +1232,7 @@ input[type=checkbox]:checked + label {
 @media screen and (min-width: 0px) and (max-width: 500px) {
   .text__photographer {
     width: 280px;
-    font-size: 10px;
+    font-size: 13px;
     align-items: center;
   }
 }

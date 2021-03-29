@@ -19,10 +19,12 @@
 .about__head {
   font-size: 50px;
   letter-spacing: 3px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .laugh {
   color:#39a0a0;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .render__head {
@@ -57,8 +59,8 @@
 }
 
 .about__fel-text {
-  font-family: 'Fjalla One', sans-serif;
   font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .rendering__box {
@@ -125,6 +127,10 @@
     height: 500px;
   }
 
+  .felicia__text-box {
+    width: 400px;
+  }
+
   .rendering__pic {
     width: 450px;
     height: 550px;
@@ -136,7 +142,7 @@
   }
 
   .list {
-    font-size:13px;
+    font-size:20px;
   }
 }
 
@@ -144,24 +150,36 @@
 @media screen and (min-width: 300px) and (max-width: 579px)  {
 
   .all__about-page {
-    height: 1200px;
+    height: 1500px;
   }
 
   .about__head{
     font-size: 20px;
   }
 
+  .about__head-text {
+    width: 300px;
+    font-size: 15px;
+  }
+
   .felicia__box {
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+  }
+
+  .felicia__text-box {
+    width: 300px;
   }
 
   .about__fel-text{
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .felicia__pic {
-    width: 200px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
   }
 
   .rendering__pic {
@@ -169,12 +187,25 @@
     height: 300px;
   }
 
+
   .render__head {
-    font-size: 30px;
-    margin-left: -45%;
+    font-size: 20px;
+    
+  }
+
+  .rendering__box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rendering__text {
+    align-items: center;
   }
 
   .list {
-    font-size:10px;
+    font-size:15px;
   }
+
+
 }
+
