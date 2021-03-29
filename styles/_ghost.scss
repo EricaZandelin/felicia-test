@@ -16,11 +16,10 @@
 .glitch {
 	font: {
 		size: 8.125em;
-		font-family: 'Fjalla One', sans-serif;
 		weight: 700;
-		text-decoration: none;
+		
 	}
-	text-decoration: none; /*vet ej varför detta inte funkar?*/
+	text-decoration: none;
 	text-transform: uppercase;
 	position: absolute;
 	color: #000;

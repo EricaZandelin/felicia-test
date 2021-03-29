@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -343,11 +342,8 @@ h1 {
 
 .glitch {
   font-size: 8.125em;
-  font-font-family: "Fjalla One", sans-serif;
   font-weight: 700;
-  font-text-decoration: none;
   text-decoration: none;
-  /*vet ej varför detta inte funkar?*/
   text-transform: uppercase;
   position: absolute;
   color: #000;
